@@ -1,0 +1,74 @@
+body,#root{
+    width: 98vw;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+.nbar{
+    width: 100%;
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+    border-bottom: 2px solid #fff;
+    height: 8vh;
+    padding: 0rem 1rem 0.5rem 1rem;
+    font-weight: 200;
+}
+nav{
+    display: flex;
+    gap: 1rem;
+}
+.linkStyle {
+    color: white;
+    text-decoration: none;
+}
+p{
+    margin: 0;
+}
+.headword{
+    font-size: 35px;
+    font-weight: 400;
+    width: 75%;
+    margin-top: 2rem;
+
+}
+input{
+    border: none;
+    padding: 1rem 0rem 1rem 0rem ;
+    background-color: black;
+    border-bottom: 1px solid #fff;
+    width: 80%;
+    color: #fff;
+    margin: 1rem 0rem 1rem 1rem ;
+}
+::placeholder {
+    color: rgb(251, 251, 251);
+    opacity: 1; 
+    font-weight: 100;
+}
+button{
+    padding: 0.2rem 1.5rem 0.2rem 1.5rem;
+    margin-top: 1rem;
+    font-weight: 100;
+    margin-left: 10px;
+}
+.frm{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
+}
+.Profile{
+    width: 95%;
+    margin: 1.5rem;
+    font-size: 30px;
+}
